@@ -1,0 +1,104 @@
+@media screen and (max-width: 1500px){
+       
+    #menu{
+        width: 98%;
+        margin-left: 1%;
+    }
+    #bigbody{
+        margin-left: 1%;
+        width: 98%;
+    }
+    .head{
+        margin-left: 1%;
+        width: 98%;
+    } 
+    #menu {
+        margin-left: 1%;
+    } 
+}
+@media screen and (max-width: 1250px){
+    #menu ul {
+        margin-left: -6%;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .body .left, .body .right, .body .left1{
+        width: 100%;  
+    }
+    .body .left{
+        height: 900px;
+    }
+    .body .left .tintuc1 .subtintuc1 img {
+        height: 180px;
+    }  
+    .body .right{
+        height: 1700px;
+        margin-top:0%;
+    }
+    .body .right .content .content1{
+        width: 100%;
+        margin-bottom: -100px;
+    }
+    .body .right .content .content1 .contentL {
+        height: 60%;
+        width: 25%;
+    }
+    .body .right .content .content1 .contentR {
+        width: 73%;
+    }
+    .body .right .content .content1 .contentR p{
+        font-size: 20px;
+    }
+    #bigbody{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .head{
+        margin-left: 0%;
+        width: 100%;
+    }
+    #menu ul {
+        margin-left: -5%;
+    }   
+}
+@media screen and (max-width: 900px){
+    #menu ul{
+        margin-left: -35%;
+        display: none;
+    }
+    .body .right .content .content1 .contentL {
+        height: 60%;
+        width: 25%;
+    }
+    .body .right .content .content1 .contentR {
+        width: 73%;
+    }
+    .body .right .content .content1 .contentR p{
+        font-size: 20px;
+    }
+    .body .left, .body .left1{
+        width: 100%;
+    }
+    .body .right{
+        width: 100%;
+    }
+    .body .left{
+        height: 760px;
+    }
+    .body .left .tintuc1 .subtintuc1 img {
+        height: 170px;
+    }
+    .body .left .tintuc{
+        height: 400px;
+    }
+
+}
+@media screen and (max-width: 740px) {
+    .body{
+        height: 400px;
+    }
+    .body .left {
+        height: auto;
+    }
+}

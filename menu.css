@@ -1,0 +1,64 @@
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+#menu .one1 .submenu a {
+    color: black;
+}
+#menu {
+    position:fixed;
+    margin-top: -2px;
+    width: 80%;
+    height: 30px;
+    margin-left: 42%;
+}
+.one1 > li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+ul.one1 > li > a {
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    white-space: nowrap;
+    display: block;
+}
+ul.one1 > li > a:hover {
+    color: black;
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.5s;
+    -webkit-transition: ease-in 0.3s;
+    border-radius: 2px;
+}
+ul.submenu {
+    background: white;
+    width: 115px;
+    min-height: 150px;
+    display: none;
+    position: absolute;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+ul.submenu > li {
+    list-style: none;
+}
+ul.submenu > li > a {
+    color: #7a7a7a;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    text-indent: 5px;
+}
+ul.submenu > li > a:hover {
+    background-color: rgb(81, 172, 137);
+    color: white;
+    transition:ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+    border-radius: 4px;
+}
+ul.one1 > li:hover ul.submenu {
+    display: block;
+}

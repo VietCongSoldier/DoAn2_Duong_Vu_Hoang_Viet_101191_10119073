@@ -1,0 +1,163 @@
+@media screen and (max-width: 1500px){
+       
+    #menu{
+        width: 98%;
+        margin-left: 1%;
+    }
+    #bigbody{
+        margin-left: 1%;
+        width: 98%;
+    }
+    .head{
+        margin-left: 1%;
+        width: 98%;
+    } 
+    #menu {
+        margin-left: 1%;
+    } 
+}
+@media screen and (max-width: 1250px){
+    #menu ul {
+        margin-left: -6%;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .body .left{
+        width: 98%;
+        margin-left: 1%; 
+    }
+    .body .right{
+        width: 98%;
+        margin-left: 1%; 
+    }
+    .body .left1{
+        width: 98%;
+        margin-left: 1%; 
+    }
+    .body .left{
+        height: 750px;
+    }
+    .body .left .tintuc {
+        height: 400px;
+    }
+    .body .left .tintuc1 .subtintuc1 img {
+        height: 180px;
+    }  
+    .body .right{
+        height: 1000px;
+        margin-top:0%;
+    }
+    .body .right .content .content1{
+        width: 98%;
+        margin-left: 1%;
+        height: 26%;
+        margin-bottom: -100px;
+    }
+    .body .right .content .content1 .contentL {
+        height: 60%;
+        width: 25%;
+    }
+    .body .right .content .content1 .contentR {
+        width: 73%;
+    }
+    .body .right .content .content1 .contentR p{
+        font-size: 20px;
+    }
+    #bigbody{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .header{
+        margin-left: 0%;
+        width: 100%;
+    }
+    #menu ul {
+        margin-left: -5%;
+    }
+
+}
+@media screen and (max-width: 900px){
+    #menu ul{
+        margin-left: -35%;
+        display: none;
+    }
+    .body .right .content .content1 .contentL {
+        height: 60%;
+        width: 25%;
+    }
+    .body .right .content .content1 .contentR {
+        width: 73%;
+    }
+    .body .right .content .content1 .contentR p{
+        font-size: 20px;
+    }
+    .body .left{
+        height: 760px;
+    }
+    .body .left .tintuc1 .subtintuc1 img {
+        height: 170px;
+    }
+    .body .left .tintuc{
+        height: 400px;
+    }
+    .body1 .left1{
+        width: 98%;
+        margin-left: 1%;
+    }
+    .body1 .right1{
+        width: 98%;
+        margin-left: 1%;
+    }
+    .body2 .left1{
+        width: 98%;
+        margin-left: 1%;
+    }
+    .body2 .right1{
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .body{
+        height: 400px;
+    }
+    .body .left {
+        height: auto;
+    }
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
